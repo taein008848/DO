@@ -24,7 +24,7 @@
         var storageRef = storage.ref();
 
         // 파일 참조 설정
-        var fileRef = storageRef.child('signatures/filename.png'); // 'filename.png'를 실제 파일명으로 교체
+        var fileRef = storageRef.child('gs://taein-24032.appspot.com/signatures'); // 'filename.png'를 실제 파일명으로 교체
 
         // 파일의 다운로드 URL 가져오기
         fileRef.getDownloadURL()
